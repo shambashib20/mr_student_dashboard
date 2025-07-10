@@ -18,13 +18,13 @@ const HomePage = () => {
                 </div>
                 <ul className="menu">
                     <li className="current-menu-item">
-                        <a href="index.html">
+                        <a href="/">
                             <img src="/images/dashboard.png" alt="" />
                             <span>Dashboard</span>
                         </a>
                     </li>
                     <li>
-                        <a href="paymemt-detail.html">
+                        <a href="/payment-details">
                             <img src="/images/dashboard.png" alt="" />
                             <span>Payment Status</span>
                         </a>

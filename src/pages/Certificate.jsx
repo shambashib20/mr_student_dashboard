@@ -1,8 +1,6 @@
+import Sidebar from "../components/Sidebar";
 
-
-import Sidebar from '../components/Sidebar.jsx';
-
-const NoticesPage = () => {
+const Certificate = () => {
     return (
         <div className="mainWrapper">
             <Sidebar />
@@ -14,7 +12,7 @@ const NoticesPage = () => {
                                 <button type="button"><img src="images/interface.png" alt="" /></button>
                             </div>
                             <div className="pgHeading">
-                                <h2>Notice</h2>
+                                <h2>Certificate</h2>
                             </div>
                         </div>
                         <div className="headerRight">
@@ -37,7 +35,7 @@ const NoticesPage = () => {
                                 <div className="item">
                                     <a href="./images/dummy.pdf">
                                         <figure> <img src="./images/pdf.png" alt="" /></figure>
-                                        <h4>Notice 1</h4>
+                                        <h4>Certificate 1</h4>
                                     </a>
                                 </div>
                             </div>
@@ -45,7 +43,7 @@ const NoticesPage = () => {
                                 <div className="item">
                                     <a href="./images/dummy.pdf">
                                         <figure> <img src="./images/pdf.png" alt="" /></figure>
-                                        <h4>Notice 2</h4>
+                                        <h4>Certificate 2</h4>
                                     </a>
                                 </div>
                             </div>
@@ -53,7 +51,7 @@ const NoticesPage = () => {
                                 <div className="item">
                                     <a href="./images/dummy.pdf">
                                         <figure> <img src="./images/pdf.png" alt="" /></figure>
-                                        <h4>Notice 3</h4>
+                                        <h4>Certificate 3</h4>
                                     </a>
                                 </div>
                             </div>
@@ -61,7 +59,7 @@ const NoticesPage = () => {
                                 <div className="item">
                                     <a href="./images/dummy.pdf">
                                         <figure> <img src="./images/pdf.png" alt="" /></figure>
-                                        <h4>Notice 4</h4>
+                                        <h4>Certificate 4</h4>
                                     </a>
                                 </div>
                             </div>
@@ -73,4 +71,4 @@ const NoticesPage = () => {
     )
 }
 
-export default NoticesPage
+export default Certificate

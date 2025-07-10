@@ -30,7 +30,7 @@ const PaymentDetails = () => {
                     <div className="headerContainer">
                         <div className="headerLeft">
                             <div className="menuBtn">
-                                <button type="button"><img src="images/interface.png" alt="" /></button>
+                                <button type="button"><img src="images/interface.png" alt=""/></button>
                             </div>
                             <div className="pgHeading">
                                 <h2>Payment Details</h2>
@@ -38,13 +38,13 @@ const PaymentDetails = () => {
                         </div>
                         <div className="headerRight">
                             <div className="headerProfile">
-                                <figure><img src="./images/profileimg.avif" alt="" /></figure>
+                                <figure><img src="./images/profileimg.avif" alt=""/></figure>
                                 <div className="name">
                                     <h4>John Doe</h4>
                                 </div>
                             </div>
                             <div className="logoutbtn">
-                                <button type="button"><img src="./images/logout.png" alt="" /></button>
+                                <button type="button"><img src="./images/logout.png" alt=""/></button>
                             </div>
                         </div>
                     </div>
